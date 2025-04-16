@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="announce.css" />
+        <link rel="stylesheet" href="announcement.css" />
+    </head>
+    <body>
+        <div class="annoucement">
+            <div class="div">
+                <div class="overlap">
+                    <img class="rectangle" src="img/Rectangle 28.png" />
+                    <div class="rectangle-2"></div>
+                    <img class="image" src="img/image 1.png" />
+                    <div class="text-wrapper">DEPARTMENT OF INFORMATION TECHNOLOGY</div>
+                    <div class="frame">
+                        <img class="screenshot" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                        <div class="overlap-group">
+                            <div class="navbar">
+                                <div class="text-wrapper-2"><a href="index.html" style="text-decoration: none; color: black;">Home</a></div>
+                                <div class="text-wrapper-3"><a href="faculty.html" style="text-decoration: none; color: black;">Faculty</a></div>
+                                <div class="text-wrapper-4"><a href="academicshome.html" style="text-decoration: none; color: black;">Academics</a></div>
+                                <div class="text-wrapper-5"><a href="club.html" style="text-decoration: none ; color: black;">Clubs</a></div>
+                                <div class="text-wrapper-6" style="color: blue;">Announcements</div>
+                                <div class="text-wrapper-7"><a href="https://apply.kalasalingam.ac.in" style="text-decoration: none;color: black;">Admission</a></div>
+                                <div class="text-wrapper-8"><a href="gallery.html" style="text-decoration: none;color: black;">Gallery</a></div>
+                            </div>
+                            <div class="text-wrapper-9">___________</div>
+                        </div>
+                    </div>
+                    <img class="vector" src="img/more.svg" />
+                </div>
+                <div class="rectangle-3"></div>
+                <div class="overlap-2">
+                    <img class="img" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                    <p class="copyright">Copyright © 2025 InfoTech.Kalasalingam&nbsp;&nbsp;Inc. All rights reserved.</p>
+                </div>
+                <div class="image-wrapper"><img class="image-2" src="img/image 8.png" /></div>
+                <a href="circular.html"><img class="image-3" src="img/image 17.png" /></a>
+                <a href="codee.html"><img class="image-4" src="img/image 19.png" /></a>
+                <div class="rectangle-4"><a href="event.html"><img src="img/image 18.png"/></a></div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                function onScrollAnimation() {
+                    const elements = document.querySelectorAll(".animate, .popup");
+                    elements.forEach((el) => {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top < window.innerHeight * 0.85) {
+                            el.classList.add("visible");
+                        }
+                    });
+                }
+        
+                document.addEventListener("scroll", onScrollAnimation);
+                onScrollAnimation(); // Run on page load
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="note.css" />
+        <link rel="stylesheet" href="notes.css" />
+    </head>
+    <body>
+        <div class="notes">
+            <div class="div">
+                <div class="rectangle"></div>
+                <div class="overlap">
+                    <div class="rectangle-2"></div>
+                    <img class="image" src="img/image 1.png" />
+                    <div class="text-wrapper">DEPARTMENT OF INFORMATION TECHNOLOGY</div>
+                    <div class="frame">
+                        <div class="overlap-group">
+                            <div class="rectangle-3"></div>
+                            <img class="img" src="img/etho.png" />
+                            <div class="rectangle-4"></div>
+                            <div class="text-wrapper-2">2nd YEAR</div>
+                        </div>
+                    </div>
+                    <div class="frame-2">
+                        <img class="screenshot" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                        <div class="overlap-2">
+                            <div class="navbar">
+                                <div class="text-wrapper-3"><a href="index.html" style="text-decoration: none; color: black;">Home</a></div>
+                                <div class="text-wrapper-4"><a href="faculty.html" style="text-decoration: none; color: black;">Faculty</a></div>
+                                <div class="text-wrapper-5"><a href="academicshome.html" style="text-decoration: none; color: blue;">Academics</a></div>
+                                <div class="text-wrapper-6"><a href="club.html" style="text-decoration: none; color: black;">Clubs</a></div>
+                                <div class="text-wrapper-7"><a href="announcement.html" style="text-decoration: none;color: black;">Announcements</a></div>
+                                <div class="text-wrapper-8"><a href="https://apply.kalasalingam.ac.in" style="text-decoration: none;color: black;">Admission</a></div>
+                                <div class="text-wrapper-9"><a href="gallery.html" style="text-decoration: none;color: black;">Gallery</a></div>
+                            </div>
+                            <div class="text-wrapper-10">___________</div>
+                        </div>
+                    </div>
+                    <img class="vector" src="img/more.svg" />
+                </div>
+                <div class="overlap-3">
+                    <div class="rectangle-5"><img src="img/ss.png"></div>
+                    <div class="frame-3"><img src="img/image.png"></div>
+                </div>
+                <div class="frame-4"><a href="https://drive.google.com/drive/folders/1pZCJWXb3n_x5noz8xHJLTXCHkIF7iq-A?usp=sharing"><img src="img/os.png"></a></div>
+                <a href="https://drive.google.com/drive/folders/1wHTalVr7PoW_1xC_nRCW-CWel-1kqA03?usp=sharing"><img class="image-2" src="img/es.png" /></a>
+                <div class="frame-5"><img src="img/ml.png"></div>
+                <div class="frame-6"><img src="img/dld.png"></div>
+                <div class="frame-7"><img src="img/coa.png"></div>
+                <div class="frame-8"><a href="https://drive.google.com/drive/folders/1XPsfXKcd-cbYcpf5rwQt7C3zsJJ4Aokn?usp=sharing"><img src="img/stat.png"></a></div>
+                <div class="image-wrapper"><img class="image-3" src="img/ss.png" /></div>
+                <div class="frame-9"><img src="img/dm.png"></div>
+                <div class="frame-10"><img src="img/iot.png"></div>
+                <div class="frame-11"><img src="img/java.png"></div>
+                <div class="frame-12"><img src="img/wad.png"></div>
+                <div class="overlap-4">
+                    <img class="screenshot-2" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                    <p class="copyright">Copyright © 2025 InfoTech.Kalasalingam&nbsp;&nbsp;Inc. All rights reserved.</p>
+                </div>
+                <div class="img-wrapper"><img class="image-4" src="img/image 1.png" /></div>
+            </div>
+        </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                function onScrollAnimation() {
+                    const elements = document.querySelectorAll(".overlap-3 ~ div, .overlap-3 ~ img");
+                    elements.forEach((el) => {
+                        if (!el.classList.contains("zoom-in") && !el.classList.contains("fade-in")) {
+                            el.classList.add("zoom-in");
+                        }
+        
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top < window.innerHeight * 0.85) {
+                            el.classList.add("visible");
+                        }
+                    });
+                }
+        
+                document.addEventListener("scroll", onScrollAnimation);
+                onScrollAnimation(); // Run on page load
+            });
+        </script>
+    </body>
+</html>

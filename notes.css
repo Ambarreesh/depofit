@@ -1,0 +1,485 @@
+.notes {
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.notes .div {
+    background-color: #fffdff;
+    width: 1440px;
+    height: 3116px;
+    position: relative;
+}
+
+.notes .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: #384959;
+}
+
+.notes .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 773px;
+    top: 48px;
+    left: 0;
+}
+
+.notes .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 162px;
+    top: 0;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.notes .image {
+    position: absolute;
+    width: 101px;
+    height: 99px;
+    top: 32px;
+    left: 25px;
+    object-fit: cover;
+}
+
+.notes .text-wrapper {
+    position: absolute;
+    width: 631px;
+    top: 30px;
+    left: 161px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .frame {
+    position: absolute;
+    width: 1440px;
+    height: 616px;
+    top: 157px;
+    left: 0;
+}
+
+.notes .overlap-group {
+    position: relative;
+    height: 616px;
+}
+
+.notes .rectangle-3 {
+    position: absolute;
+    width: 1440px;
+    height: 613px;
+    top: 3px;
+    left: 0;
+    background-color: #d9d9d9;
+}
+
+.notes .img {
+    position: absolute;
+    width: 1440px;
+    height: 616px;
+    top: 0;
+    left: 0;
+}
+
+.notes .rectangle-4 {
+    position: absolute;
+    width: 556px;
+    height: 195px;
+    top: 211px;
+    left: 451px;
+    background-color: #d9d9d9;
+    opacity: 0.37;
+}
+
+.notes .text-wrapper-2 {
+    position: absolute;
+    top: 239px;
+    left: 470px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Arial Black-Regular", Helvetica;
+    font-weight: 400;
+    color: #fafdff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .frame-2 {
+    position: absolute;
+    width: 1048px;
+    height: 60px;
+    top: 141px;
+    left: 207px;
+    background-color: #fafdff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #00000080;
+}
+
+.notes .screenshot {
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    top: 0;
+    left: 12px;
+}
+
+.notes .overlap-2 {
+    position: absolute;
+    width: 935px;
+    height: 30px;
+    top: 14px;
+    left: 95px;
+}
+
+.notes .navbar {
+    position: absolute;
+    width: 935px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.notes .text-wrapper-3 {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-4 {
+    left: 94px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-5 {
+    left: 201px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-6 {
+    left: 353px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-7 {
+    left: 441px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-8 {
+    left: 661px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-9 {
+    left: 819px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-10 {
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #d7de06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .vector {
+    position: absolute;
+    width: 38px;
+    height: 28px;
+    top: 50px;
+    left: 1358px;
+}
+
+.notes .overlap-3 {
+    position: absolute;
+    width: 313px;
+    height: 320px;
+    top: 1002px;
+    left: 63px;
+}
+
+.notes .rectangle-5 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 0;
+    left: 9px;
+    background-color: #d9d9d9;
+}
+
+.notes .frame-3 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 0;
+    left: 0;
+    border-radius: 55px;
+    background-image: url(./img/image-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-4 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1000px;
+    left: 568px;
+    background-image: url(./img/image-13.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .image-2 {
+    position: absolute;
+    width: 323px;
+    height: 323px;
+    top: 1002px;
+    left: 1050px;
+    object-fit: cover;
+}
+
+.notes .frame-5 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1414px;
+    left: 72px;
+    background-image: url(./img/image-9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-6 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1434px;
+    left: 568px;
+    background-image: url(./img/image-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-7 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1414px;
+    left: 1073px;
+    background-image: url(./img/image-10.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-8 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1826px;
+    left: 1073px;
+    background-image: url(./img/image-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .image-wrapper {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1826px;
+    left: 558px;
+}
+
+.notes .image-3 {
+    position: absolute;
+    width: 330px;
+    height: 320px;
+    top: 0;
+    left: 0;
+}
+
+.notes .frame-9 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 1826px;
+    left: 72px;
+    background-image: url(./img/image-12.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-10 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 2260px;
+    left: 72px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-11 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 2260px;
+    left: 558px;
+    background-image: url(./img/image-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.notes .frame-12 {
+    position: absolute;
+    width: 304px;
+    height: 320px;
+    top: 2250px;
+    left: 1073px;
+    background-image: url(./img/image-11.png);
+    background-size: 100% 100%;
+}
+
+.notes .overlap-4 {
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    top: 3025px;
+    left: 0;
+    background-color: #384959;
+}
+
+.notes .screenshot-2 {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    top: 0;
+    left: 0;
+}
+
+.notes .copyright {
+    position: absolute;
+    top: 45px;
+    left: 517px;
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.notes .img-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    top: 2756px;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.notes .image-4 {
+    position: absolute;
+    width: 182px;
+    height: 179px;
+    top: 39px;
+    left: 38px;
+    object-fit: cover;
+}
+
+/* Zoom-in animation */
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Make elements visible when they scroll into view */
+.zoom-in.visible, .fade-in.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+
+/* Image hover effect */
+img {
+    transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}

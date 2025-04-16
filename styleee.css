@@ -1,0 +1,479 @@
+.club {
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.club .div {
+    background-color: #fffdff;
+    width: 1440px;
+    height: 2297px;
+    position: relative;
+}
+
+.club .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 765px;
+    top: 48px;
+    left: 0;
+}
+
+.club .image {
+    position: absolute;
+    width: 1440px;
+    height: 622px;
+    top: 143px;
+    left: 0;
+}
+
+.club .rectangle {
+    height: 162px;
+    background-color: #88bdf2;
+    position: absolute;
+    width: 1440px;
+    top: 0;
+    left: 0;
+}
+
+.club .vector {
+    position: absolute;
+    width: 38px;
+    height: 31px;
+    top: 62px;
+    left: 1358px;
+}
+
+.club .img {
+    position: absolute;
+    width: 101px;
+    height: 99px;
+    top: 32px;
+    left: 25px;
+    object-fit: cover;
+}
+
+.club .text-wrapper {
+    position: absolute;
+    width: 631px;
+    top: 30px;
+    left: 161px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .frame {
+    position: absolute;
+    width: 1048px;
+    height: 60px;
+    top: 141px;
+    left: 207px;
+    background-color: #fafdff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #00000080;
+}
+
+.club .screenshot {
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    top: 0;
+    left: 12px;
+}
+
+.club .overlap-group {
+    position: absolute;
+    width: 935px;
+    height: 30px;
+    top: 14px;
+    left: 95px;
+}
+
+.club .navbar {
+    position: absolute;
+    width: 935px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.club .text-wrapper-2 {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-3 {
+    left: 94px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-4 {
+    left: 201px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-5 {
+    left: 353px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-6 {
+    left: 441px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-7 {
+    left: 661px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-8 {
+    left: 819px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .text-wrapper-9 {
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #d7de06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.club .rectangle-2 {
+    height: 48px;
+    background-color: #384959;
+    position: absolute;
+    width: 1440px;
+    top: 0;
+    left: 0;
+}
+
+.club .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    top: 2206px;
+    left: 0;
+    background-color: #384959;
+}
+
+.club .screenshot-2 {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    top: 0;
+    left: 0;
+}
+
+.club .copyright {
+    position: absolute;
+    top: 45px;
+    left: 517px;
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.club .image-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    top: 1937px;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.club .image-2 {
+    position: absolute;
+    width: 182px;
+    height: 179px;
+    top: 39px;
+    left: 38px;
+    object-fit: cover;
+}
+
+.club .frame-2 {
+    position: absolute;
+    width: 790px;
+    height: 332px;
+    top: 1400px;
+    left: 238px;
+}
+
+.club .image-3 {
+    position: absolute;
+    width: 351px;
+    height: 332px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.club .image-4 {
+    position: absolute;
+    width: 351px;
+    height: 332px;
+    top: 0;
+    left: 601px;
+    object-fit: cover;
+}
+
+.club .frame-3 {
+    position: absolute;
+    width: 948px;
+    height: 332px;
+    top: 897px;
+    left: 238px;
+}
+
+.club .frame-default {
+    position: absolute;
+    width: 351px;
+    height: 332px;
+    top: 0;
+    left: 0;
+}
+
+.club .group-wrapper {
+    height: 332px;
+}
+
+.club .group {
+    position: relative;
+    width: 351px;
+    height: 332px;
+    top: -1px;
+    left: -1px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+    background-image: url(./img/image-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.club .NEWB {
+    position: absolute;
+    width: 351px;
+    height: 332px;
+    top: 0;
+    left: 597px;
+    object-fit: cover;
+}
+
+@keyframes popUp {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Initially hidden elements for fade-in effect */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Once in viewport, apply fade-in */
+.fade-in.show {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Zoom effect on hover (applied to each image separately) */
+.zoom-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-hover:hover {
+    transform: scale(1.1);
+}
+
+/* Fade-in effect on scroll */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Initially hidden for fade-in */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Once in viewport, apply fade-in */
+.fade-in.show {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Zoom effect on hover */
+.zoom-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom in when mouse enters */
+.zoom-hover:hover {
+    transform: scale(1.15);
+    cursor: pointer; /* Indicates the image is clickable */
+}
+
+/* Ensure all elements fit within the screen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Flexbox for Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Responsive Typography */
+body {
+    font-size: 18px;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+
+.active-menu {
+    color: blue !important;
+}
+
+.in-active-menu {
+    color: black !important;
+    text-decoration: none;
+}

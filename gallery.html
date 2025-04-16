@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="gall.css" />
+        <link rel="stylesheet" href="gallery.css" />
+    </head>
+    <body>
+        <div class="gallery">
+            <div class="div">
+                <div class="rectangle"></div>
+                <div class="overlap">
+                    <div class="rectangle-2"></div>
+                    <img class="image" src="img/image 1.png" />
+                    <div class="text-wrapper">DEPARTMENT OF INFORMATION TECHNOLOGY</div>
+                    <div class="frame">
+                        <div class="overlap-group">
+                            <img src="img/gal.png">
+                            <div class="rectangle-3"></div>
+                            <div class="oooo">Gallery</div>
+                        </div>
+                    </div>
+                    <div class="frame-2">
+                        <img class="screenshot" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                        <div class="overlap-2">
+                            <div class="navbar">
+                                <div class="text-wrapper-2"><a href="index.html" style="text-decoration: none; color: black;">Home</a></div>
+                                <div class="text-wrapper-3"><a href="faculty.html" style="text-decoration: none;color: black;">Faculty</a></div>
+                                <div class="text-wrapper-4"><a href="academicshome.html" style="text-decoration: none;color: black;">Academics</a></div>
+                                <div class="text-wrapper-5"><a href="club.html" style="text-decoration: none;color: black;">Clubs</a></div>
+                                <div class="text-wrapper-6"><a href="announcement.html" style="text-decoration: none;color: black;">Announcements</a></div>
+                                <div class="text-wrapper-7"><a href="https://apply.kalasalingam.ac.in" style="text-decoration: none;color: black;">Admission</a></div>
+                                <div class="text-wrapper-8" style="color: blue;">Gallery</div>
+                            </div>
+                            <div class="text-wrapper-9">___________</div>
+                        </div>
+                    </div>
+                    <img class="vector" src="img/more.svg" />
+                </div>
+                <img class="whatsapp-image" src="img/2.jpeg" />
+                <img class="img" src="img/1.jpeg" />
+                <img class="whatsapp-image-2" src="img/3.jpeg" />
+                <img class="whatsapp-image-3" src="img/4.jpeg" />
+                <div class="overlap-3">
+                    <img class="screenshot-2" src="img/Screenshot 2025-01-30 at 7.43.35 PM 1.png" />
+                    <p class="copyright">Copyright © 2025 InfoTech.Kalasalingam&nbsp;&nbsp;Inc. All rights reserved.</p>
+                </div>
+                <div class="image-wrapper"><img class="image-2" src="img/image 8.png" /></div>
+                <img class="whatsapp-image-4" src="img/5.jpeg" />
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const images = document.querySelectorAll(".gallery .div img");
+        
+                const observer = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("visible");
+                            obs.unobserve(entry.target); // Animate only once
+                        }
+                    });
+                }, { threshold: 0.1 });
+        
+                images.forEach(img => observer.observe(img));
+            });
+        </script>
+    </body>
+</html>

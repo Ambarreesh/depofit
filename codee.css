@@ -1,0 +1,430 @@
+.codes {
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.codes .div {
+    background-color: #fffdff;
+    width: 1440px;
+    height: 1818px;
+    position: relative;
+}
+
+.codes .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 729px;
+    top: 48px;
+    left: 0;
+}
+
+.codes .rectangle {
+    height: 567px;
+    top: 162px;
+    object-fit: cover;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.codes .rectangle-2 {
+    height: 162px;
+    top: 0;
+    background-color: #88bdf2;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.codes .image {
+    width: 101px;
+    height: 99px;
+    top: 32px;
+    left: 25px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.codes .text-wrapper {
+    position: absolute;
+    width: 631px;
+    top: 30px;
+    left: 161px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .frame {
+    position: absolute;
+    width: 1048px;
+    height: 60px;
+    top: 141px;
+    left: 207px;
+    background-color: #fafdff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #00000080;
+}
+
+.codes .screenshot {
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    top: 0;
+    left: 12px;
+}
+
+.codes .overlap-group {
+    position: absolute;
+    width: 935px;
+    height: 30px;
+    top: 14px;
+    left: 95px;
+}
+
+.codes .navbar {
+    position: absolute;
+    width: 935px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.codes .text-wrapper-2 {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-3 {
+    left: 94px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-4 {
+    left: 201px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-5 {
+    left: 353px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-6 {
+    left: 441px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-7 {
+    left: 661px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-8 {
+    left: 819px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .text-wrapper-9 {
+    position: absolute;
+    top: 15px;
+    left: 485px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #d7de06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .vector {
+    position: absolute;
+    width: 38px;
+    height: 31px;
+    top: 62px;
+    left: 1358px;
+}
+
+.codes .rectangle-3 {
+    height: 48px;
+    top: 0;
+    background-color: #384959;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.codes .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 99px;
+    top: 1719px;
+    left: 0;
+    background-color: #384959;
+}
+
+.codes .img {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    top: 0;
+    left: 0;
+}
+
+.codes .copyright {
+    position: absolute;
+    top: 45px;
+    left: 517px;
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.codes .image-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    top: 1450px;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.codes .image-2 {
+    width: 182px;
+    height: 179px;
+    top: 39px;
+    left: 38px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.codes .text-wrapper-10 {
+    position: absolute;
+    top: 815px;
+    left: 476px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.codes .frame-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 179px;
+    position: absolute;
+    top: 1001px;
+    left: 126px;
+}
+
+.codes .group {
+    height: 306px;
+    position: relative;
+    width: 274px;
+}
+
+.codes .overlap-group-2 {
+    position: relative;
+    width: 272px;
+    height: 306px;
+    background-image: url(./img/rectangle-29.svg);
+    background-size: 100% 100%;
+}
+
+.codes .image-3 {
+    width: 170px;
+    height: 204px;
+    top: 14px;
+    left: 51px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.codes .text-wrapper-11 {
+    position: absolute;
+    width: 188px;
+    top: 219px;
+    left: 64px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .overlap-3 {
+    position: relative;
+    width: 272px;
+    height: 306px;
+    background-image: url(./img/rectangle-30.svg);
+    background-size: 100% 100%;
+}
+
+.codes .image-4 {
+    width: 173px;
+    height: 208px;
+    top: 17px;
+    left: 49px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.codes .CODESOLO-CB-KARE {
+    position: absolute;
+    width: 180px;
+    top: 238px;
+    left: 43px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.codes .overlap-wrapper {
+    height: 295px;
+    margin-right: -2.00px;
+    position: relative;
+    width: 274px;
+}
+
+.codes .overlap-4 {
+    position: relative;
+    width: 272px;
+    height: 295px;
+    background-image: url(./img/rectangle-31.svg);
+    background-size: 100% 100%;
+}
+
+.codes .GAMERUSH-PIXELIT {
+    position: absolute;
+    top: 232px;
+    left: 65px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* Scroll-triggered animations */
+.animate {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Popup effect (slightly larger and moves up) */
+.popup {
+    opacity: 0;
+    transform: translateY(50px) scale(0.8);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.popup.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Smooth zoom effect for images */
+.image-2, .image-3, .image-4, .vector {
+    transition: transform 1s ease-in-out;
+}
+
+.image-2:hover, .image-3:hover, .image-4:hover, .vector:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Navbar hover effects */
+.navbar a {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+/* Special effects for event names */
+.text-wrapper-10, .text-wrapper-11, .CODESOLO-CB-KARE, .GAMERUSH-PIXELIT {
+    transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text-wrapper-10:hover, .text-wrapper-11:hover, .CODESOLO-CB-KARE:hover, .GAMERUSH-PIXELIT:hover {
+    color: #ff5722;
+    transform: scale(1.1);
+}

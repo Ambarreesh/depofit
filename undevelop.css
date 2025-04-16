@@ -1,0 +1,337 @@
+.notes {
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.notes .div {
+    background-color: #fffdff;
+    overflow: hidden;
+    width: 1440px;
+    height: 2432px;
+    position: relative;
+}
+
+.notes .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 779px;
+    top: 48px;
+    left: 0;
+}
+
+.notes .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 623px;
+    top: 156px;
+    left: 0;
+    background-color: #d9d9d9;
+}
+
+.notes .frame {
+    position: absolute;
+    width: 1440px;
+    height: 616px;
+    top: 157px;
+    left: 0;
+}
+
+.notes .overlap-group {
+    position: relative;
+    height: 616px;
+}
+
+.notes .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 613px;
+    top: 3px;
+    left: 0;
+    background-color: #d9d9d9;
+}
+
+.notes .image {
+    position: absolute;
+    width: 1440px;
+    height: 616px;
+    top: 0;
+    left: 0;
+}
+
+.notes .rectangle-3 {
+    position: absolute;
+    width: 556px;
+    height: 195px;
+    top: 211px;
+    left: 451px;
+    background-color: #d9d9d9;
+    opacity: 0.37;
+}
+
+.notes .text-wrapper {
+    position: absolute;
+    top: 239px;
+    left: 470px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Arial Black-Regular", Helvetica;
+    font-weight: 400;
+    color: #fafdff;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .rectangle-4 {
+    position: absolute;
+    width: 1440px;
+    height: 162px;
+    top: 0;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.notes .vector {
+    position: absolute;
+    width: 38px;
+    height: 33px;
+    top: 68px;
+    left: 1358px;
+}
+
+.notes .img {
+    position: absolute;
+    width: 101px;
+    height: 99px;
+    top: 32px;
+    left: 25px;
+    object-fit: cover;
+}
+
+.notes .text-wrapper-2 {
+    position: absolute;
+    width: 631px;
+    top: 30px;
+    left: 161px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .frame-2 {
+    position: absolute;
+    width: 1048px;
+    height: 60px;
+    top: 141px;
+    left: 207px;
+    background-color: #fafdff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #00000080;
+}
+
+.notes .screenshot {
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    top: 0;
+    left: 12px;
+}
+
+.notes .overlap-2 {
+    position: absolute;
+    width: 935px;
+    height: 30px;
+    top: 14px;
+    left: 95px;
+}
+
+.notes .navbar {
+    position: absolute;
+    width: 935px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.notes .text-wrapper-3 {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-4 {
+    left: 94px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-5 {
+    left: 201px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-6 {
+    left: 353px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-7 {
+    left: 441px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-8 {
+    left: 661px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-9 {
+    left: 851px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .text-wrapper-10 {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #d7de06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.notes .rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: #384959;
+}
+
+.notes .copyright {
+    position: absolute;
+    top: 3334px;
+    left: 482px;
+    transform: rotate(0.43deg);
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.notes .image-2 {
+    position: absolute;
+    width: 1086px;
+    height: 1086px;
+    top: 910px;
+    left: 177px;
+    object-fit: cover;
+}
+
+.notes .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    top: 2349px;
+    left: 0;
+    background-color: #384959;
+}
+
+.notes .screenshot-2 {
+    position: absolute;
+    width: 92px;
+    height: 83px;
+    top: 0;
+    left: 0;
+}
+
+.notes .p {
+    position: absolute;
+    top: 45px;
+    left: 517px;
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.notes .image-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    top: 2080px;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.notes .image-3 {
+    position: absolute;
+    width: 182px;
+    height: 179px;
+    top: 39px;
+    left: 38px;
+    object-fit: cover;
+}

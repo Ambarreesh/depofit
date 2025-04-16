@@ -1,0 +1,433 @@
+.events {
+    background-color: #fffdff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.events .div {
+    background-color: #fffdff;
+    width: 1440px;
+    height: 1810px;
+    position: relative;
+}
+
+.events .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 729px;
+    top: 48px;
+    left: 0;
+}
+
+.events .rectangle {
+    height: 567px;
+    top: 162px;
+    object-fit: cover;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.events .rectangle-2 {
+    height: 162px;
+    top: 0;
+    background-color: #88bdf2;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.events .image {
+    width: 101px;
+    height: 99px;
+    top: 32px;
+    left: 25px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.events .text-wrapper {
+    position: absolute;
+    width: 631px;
+    top: 30px;
+    left: 161px;
+    font-family: "Arial Rounded MT Bold-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .frame {
+    position: absolute;
+    width: 1048px;
+    height: 60px;
+    top: 141px;
+    left: 207px;
+    background-color: #fafdff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: #00000080;
+}
+
+.events .screenshot {
+    position: absolute;
+    width: 57px;
+    height: 56px;
+    top: 0;
+    left: 12px;
+}
+
+.events .overlap-group {
+    position: absolute;
+    width: 935px;
+    height: 30px;
+    top: 14px;
+    left: 95px;
+}
+
+.events .navbar {
+    position: absolute;
+    width: 935px;
+    height: 29px;
+    top: 0;
+    left: 0;
+}
+
+.events .text-wrapper-2 {
+    left: 0;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-3 {
+    left: 94px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-4 {
+    left: 201px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-5 {
+    left: 353px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-6 {
+    left: 441px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-7 {
+    left: 661px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-8 {
+    left: 819px;
+    position: absolute;
+    top: -1px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #240579;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .text-wrapper-9 {
+    position: absolute;
+    top: 15px;
+    left: 485px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #d7de06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .vector {
+    position: absolute;
+    width: 38px;
+    height: 31px;
+    top: 62px;
+    left: 1358px;
+}
+
+.events .rectangle-3 {
+    height: 48px;
+    top: 0;
+    background-color: #384959;
+    position: absolute;
+    width: 1440px;
+    left: 0;
+}
+
+.events .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 91px;
+    top: 1719px;
+    left: 0;
+    background-color: #384959;
+}
+
+.events .img {
+    position: absolute;
+    width: 92px;
+    height: 91px;
+    top: 0;
+    left: 0;
+}
+
+.events .copyright {
+    position: absolute;
+    top: 45px;
+    left: 517px;
+    font-family: "Arial Narrow-Bold", Helvetica;
+    font-weight: 700;
+    color: #fffdff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.events .image-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 269px;
+    top: 1450px;
+    left: 0;
+    background-color: #88bdf2;
+}
+
+.events .image-2 {
+    width: 182px;
+    height: 179px;
+    top: 39px;
+    left: 38px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.events .text-wrapper-10 {
+    position: absolute;
+    top: 807px;
+    left: 577px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.events .group {
+    height: 306px;
+    left: 126px;
+    position: absolute;
+    width: 274px;
+    top: 1001px;
+}
+
+.events .overlap-3 {
+    position: relative;
+    width: 272px;
+    height: 306px;
+    background-image: url(./img/rectangle-29.svg);
+    background-size: 100% 100%;
+}
+
+.events .image-3 {
+    width: 170px;
+    height: 204px;
+    top: 14px;
+    left: 51px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.events .THAMIZHI-TAMIL {
+    position: absolute;
+    width: 232px;
+    top: 226px;
+    left: 20px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .overlap-wrapper {
+    height: 306px;
+    left: 577px;
+    position: absolute;
+    width: 274px;
+    top: 1001px;
+}
+
+.events .overlap-4 {
+    position: relative;
+    width: 272px;
+    height: 306px;
+    background-image: url(./img/rectangle-30.svg);
+    background-size: 100% 100%;
+}
+
+.events .image-4 {
+    width: 173px;
+    height: 208px;
+    top: 17px;
+    left: 49px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.events .WORKSHOP-PHOTOGRAPHY {
+    position: absolute;
+    width: 213px;
+    top: 234px;
+    left: 29px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.events .overlap-group-wrapper {
+    height: 295px;
+    left: 1028px;
+    position: absolute;
+    width: 274px;
+    top: 1001px;
+}
+
+.events .overlap-5 {
+    position: relative;
+    width: 272px;
+    height: 295px;
+    background-image: url(./img/rectangle-31.svg);
+    background-size: 100% 100%;
+}
+
+.events .UGATHI-UTSAV-VIKSHA {
+    position: absolute;
+    top: 232px;
+    left: 48px;
+    font-family: "Alexandria-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* Scroll-triggered animations */
+.animate {
+    opacity: 0;
+    transform: translateY(40px) scale(0.9);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Popup effect (slightly larger while appearing) */
+.popup {
+    opacity: 0;
+    transform: translateY(50px) scale(0.85);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.popup.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Smooth zoom effect for images */
+.image-2, .image-3, .image-4, .vector {
+    transition: transform 1s ease-in-out;
+}
+
+.image-2:hover, .image-3:hover, .image-4:hover, .vector:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Navbar hover effects */
+.navbar a {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #007bff;
+}
+
+/* Special effects for event names */
+.text-wrapper-10, .THAMIZHI-TAMIL, .WORKSHOP-PHOTOGRAPHY, .UGATHI-UTSAV-VIKSHA {
+    transition: color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.text-wrapper-10:hover, .THAMIZHI-TAMIL:hover, .WORKSHOP-PHOTOGRAPHY:hover, .UGATHI-UTSAV-VIKSHA:hover {
+    color: #ff5722;
+    transform: scale(1.1);
+}

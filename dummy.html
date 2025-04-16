@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLU CGPA Calculator</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Knewave', cursive;
+            background: linear-gradient(180deg, #6C1AFF, #FF76A1);
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .screen {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #7A00CC;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            background-color: #52008A;
+        }
+
+        input {
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Screen 1 -->
+    <div id="screen1" class="screen active">
+        <h1>KLU CGPA Calculator</h1>
+        <p>Calculate your CGPA Accurately</p>
+        <p>Created by Ambarreesh.R</p>
+        <button class="btn" id="nextTo2">Next</button>
+    </div>
+
+    <!-- Screen 2 -->
+    <div id="screen2" class="screen">
+        <h1>Gets Start</h1>
+        <button class="btn" id="nextTo3">Go</button>
+    </div>
+
+    <!-- Screen 3 -->
+    <div id="screen3" class="screen">
+        <h1>Enter Semester and Subjects</h1>
+        <input id="semester" type="number" placeholder="Enter Sem" required />
+        <input id="subjectCount" type="number" placeholder="No. of Subjects" required />
+        <button class="btn" id="addSubjects">Add Subjects</button>
+    </div>
+
+    <!-- Screen 4 -->
+    <div id="screen4" class="screen">
+        <h1>Enter Subject Details</h1>
+        <input id="subjectName" type="text" placeholder="Subject Name" required />
+        <input id="credits" type="number" placeholder="No. of Credits" required />
+        <input id="grade" type="text" placeholder="Grade (S-F)" required />
+        <button class="btn" id="addSubject">Add</button>
+    </div>
+
+    <!-- Screen 5 -->
+    <div id="screen5" class="screen">
+        <h1>Subjects Overview</h1>
+        <div id="subjectsList"></div>
+        <button class="btn hidden" id="calculateSGPA">Calculate SGPA</button>
+        <button class="btn hidden" id="calculateCGPA">Calculate CGPA</button>
+    </div>
+
+    <!-- Final Screen -->
+    <div id="finalScreen" class="screen">
+        <h1>Congratulations!</h1>
+        <h2>Your CGPA is: <span id="resultCGPA"></span></h2>
+    </div>
+
+    <script>
+        const screens = document.querySelectorAll('.screen');
+        let currentScreen = 0;
+
+        const semesterInput = document.getElementById('semester');
+        const subjectCountInput = document.getElementById('subjectCount');
+        const subjectNameInput = document.getElementById('subjectName');
+        const creditsInput = document.getElementById('credits');
+        const gradeInput = document.getElementById('grade');
+        const subjectsList = document.getElementById('subjectsList');
+        const resultCGPA = document.getElementById('resultCGPA');
+
+        let totalSubjects = 0;
+        let subjects = [];
+        let totalCredits = 0;
+
+        function showScreen(index) {
+            screens.forEach((screen, i) => {
+                screen.classList.toggle('active', i === index);
+            });
+        }
+
+        document.getElementById('nextTo2').addEventListener('click', () => {
+            showScreen(++currentScreen);
+        });
+
+        document.getElementById('nextTo3').addEventListener('click', () => {
+            showScreen(++currentScreen);
+        });
+
+        document.getElementById('addSubjects').addEventListener('click', () => {
+            totalSubjects = parseInt(subjectCountInput.value);
+            showScreen(++currentScreen);
+        });
+
+        document.getElementById('addSubject').addEventListener('click', () => {
+            const subject = {
+                name: subjectNameInput.value,
+                credits: parseInt(creditsInput.value),
+                grade: gradeInput.value.toUpperCase()
+            };
+            subjects.push(subject);
+            totalCredits += subject.credits;
+            subjectNameInput.value = '';
+            creditsInput.value = '';
+            gradeInput.value = '';
+
+            if (subjects.length === totalSubjects) {
+                subjects.forEach(sub => {
+                    const div = document.createElement('div');
+                    div.textContent = `${sub.name} - ${sub.credits} Credits - Grade ${sub.grade}`;
+                    subjectsList.appendChild(div);
+                });
+                if (parseInt(semesterInput.value) > 1) {
+                    document.getElementById('calculateSGPA').classList.remove('hidden');
+                } else {
+                    document.getElementById('calculateCGPA').classList.remove('hidden');
+                }
+                showScreen(++currentScreen);
+            }
+        });
+
+        function calculateGradeValue(grade) {
+            const grades = { 'S': 10, 'A': 9, 'B': 8, 'C': 7, 'D': 6, 'E': 5, 'F': 0 };
+            return grades[grade] || 0;
+        }
+
+        function calculateCGPA() {
+            let total = 0;
+            subjects.forEach(sub => {
+                total += sub.credits * calculateGradeValue(sub.grade);
+            });
+            return (total / totalCredits).toFixed(2);
+        }
+
+        document.getElementById('calculateCGPA').addEventListener('click', () => {
+            resultCGPA.textContent = calculateCGPA();
+            showScreen(++currentScreen);
+        });
+
+        document.getElementById('calculateSGPA').addEventListener('click', () => {
+            const sgpa = parseFloat(calculateCGPA());
+            const previousCGPA = parseFloat(prompt("Enter Previous Semester CGPA:"));
+            resultCGPA.textContent = ((sgpa + previousCGPA) / 2).toFixed(2);
+            showScreen(++currentScreen);
+        });
+    </script>
+</body>
+</html>
